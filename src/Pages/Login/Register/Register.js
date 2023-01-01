@@ -17,13 +17,13 @@ const Register = () => {
                     <div
                     className="p-4 py-6 text-white bg-indigo-600 md:w-80 md:flex-shrink-0 md:flex md:flex-col md:items-center md:justify-evenly"
                     >
-                    <div className="my-3 text-4xl font-bold tracking-wider text-center">
+                    <div className="my-3 text-4xl font-bold tracking-wider text-center"> 
                         <Link to="/">Kinbo.com</Link>
                     </div>
                     
                     <p className="flex flex-col items-center justify-center mt-10 text-center">
-                        <span>Don't have an account?</span>
-                        <Link to="/register" className="underline">Get Started!</Link>
+                        <span>Already Have an account?</span>
+                        <Link to="/login" className="underline">Login Now!</Link>
                     </p>
                     <p className="mt-6 text-sm text-center text-gray-300">
                         Read our <Link href="#" className="underline">terms</Link> and <Link href="#" className="underline">conditions</Link>

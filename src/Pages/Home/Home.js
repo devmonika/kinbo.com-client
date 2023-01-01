@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { webName } from '../../App';
 import Heroarea from './Heroarea';
+import HomeCat from './HomeCat';
 
 const Home = () => {
     return (
@@ -11,6 +12,10 @@ const Home = () => {
 			</Helmet>
         <div>
             <Heroarea></Heroarea>
+            <HomeCat></HomeCat>
+            
+        
+    
         </div>
         </HelmetProvider>
     );

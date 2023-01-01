@@ -22,7 +22,7 @@ export const routes = createBrowserRouter([
                 element:<About></About>
             },
             {
-                path:'/allproduct',
+                path:'/allproducts',
                 element:<AllProduct></AllProduct>
             },
             {
